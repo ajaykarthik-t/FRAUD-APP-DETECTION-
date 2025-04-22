@@ -1,0 +1,11 @@
+date,incident_id,severity,primary_tactic,technique_id,secondary_tactics,secondary_techniques
+2025-01-06,TEST-Low-79-2048,Low,Execution,T1204,[],[]
+2025-01-04,TEST-Low-79-3887,Low,Defense Evasion,T1202,['Execution'],['T1106']
+2025-01-26,TEST-Low-79-9282,Low,Privilege Escalation,T1134,[],[]
+2025-01-17,TEST-Low-79-7297,Low,Initial Access,T1566,[],[]
+2025-01-25,TEST-Low-79-5208,Low,Credential Access,T1556,[],[]
+2025-01-22,TEST-Low-79-7741,Low,Privilege Escalation,T1548,"['Credential Access', 'Lateral Movement']","['T1555', 'T1210']"
+2025-01-26,TEST-Low-79-5026,Low,Defense Evasion,T1222,[],[]
+2025-01-06,TEST-Low-79-3242,Low,Execution,T1106,['Lateral Movement'],['T1210']
+2025-01-07,TEST-Low-79-6714,Low,Lateral Movement,T1210,['Discovery'],['T1082']
+2025-01-21,TEST-Low-79-9030,Low,Persistence,T1136,"['Command and Control', 'Discovery']","['T1105', 'T1083']"

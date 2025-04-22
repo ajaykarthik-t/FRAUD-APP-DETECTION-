@@ -1,0 +1,11 @@
+date,incident_id,severity,primary_tactic,technique_id,secondary_tactics,secondary_techniques
+2025-01-06,TEST-Medium-3-4625,Medium,Privilege Escalation,T1484,['Credential Access'],['T1555']
+2025-01-10,TEST-Medium-3-7748,Medium,Persistence,T1505,[],[]
+2025-01-13,TEST-Medium-3-6039,Medium,Initial Access,T1566,['Persistence'],['T1098']
+2025-01-19,TEST-Medium-3-3277,Medium,Command and Control,T1572,['Initial Access'],['T1190']
+2025-01-26,TEST-Medium-3-3589,Medium,Privilege Escalation,T1484,['Command and Control'],['T1572']
+2025-01-28,TEST-Medium-3-8578,Medium,Persistence,T1136,"['Privilege Escalation', 'Credential Access']","['T1548', 'T1556']"
+2025-01-26,TEST-Medium-3-8025,Medium,Credential Access,T1110,[],[]
+2025-01-24,TEST-Medium-3-1505,Medium,Lateral Movement,T1091,[],[]
+2025-02-01,TEST-Medium-3-4196,Medium,Defense Evasion,T1070,[],[]
+2025-01-19,TEST-Medium-3-4911,Medium,Lateral Movement,T1021,['Defense Evasion'],['T1202']

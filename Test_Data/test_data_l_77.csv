@@ -1,0 +1,11 @@
+date,incident_id,severity,primary_tactic,technique_id,secondary_tactics,secondary_techniques
+2025-01-12,TEST-Low-77-1373,Low,Privilege Escalation,T1548,"['Initial Access', 'Credential Access']","['T1566', 'T1556']"
+2025-01-16,TEST-Low-77-4620,Low,Command and Control,T1071,"['Discovery', 'Persistence']","['T1082', 'T1136']"
+2025-01-28,TEST-Low-77-6705,Low,Command and Control,T1071,"['Privilege Escalation', 'Lateral Movement']","['T1484', 'T1210']"
+2025-01-07,TEST-Low-77-9505,Low,Discovery,T1082,['Defense Evasion'],['T1222']
+2025-01-07,TEST-Low-77-5740,Low,Lateral Movement,T1021,['Privilege Escalation'],['T1484']
+2025-01-08,TEST-Low-77-1373,Low,Defense Evasion,T1222,"['Command and Control', 'Persistence']","['T1071', 'T1136']"
+2025-01-10,TEST-Low-77-4305,Low,Lateral Movement,T1021,['Defense Evasion'],['T1202']
+2025-02-01,TEST-Low-77-3977,Low,Discovery,T1083,['Initial Access'],['T1133']
+2025-01-27,TEST-Low-77-8114,Low,Discovery,T1083,"['Defense Evasion', 'Command and Control']","['T1070', 'T1572']"
+2025-01-05,TEST-Low-77-7987,Low,Execution,T1106,['Privilege Escalation'],['T1134']
